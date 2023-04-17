@@ -1,0 +1,250 @@
+/*HEADER*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 3px solid #32b9cd;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    color: #ADD8E6;
+    font-weight: 500;
+    height: 30px;
+    width: 5px;
+}
+
+.navbar {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    position: relative;
+    height: auto;
+
+}
+
+.img {
+    width: 45px;
+    align-items: left;
+}
+
+.navbar a, .navbar li {
+    color: #ADD8E6;
+    text-decoration: none;
+}
+
+/*BANNER*/
+
+.banner {
+    background-image: url('../img/quemsomos_frigocopa_frigorifico_carnes2-1\ 1.png');
+    background-size: cover;
+    border-bottom: 532px solid #ADD8E6;
+    padding-left: 200px;
+}
+
+.banner .container4 {
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container4 p{
+
+    margin-top: 10%;
+    width: 20%;
+    align-items: center;
+}
+
+
+.container4 button {
+    width: 146px;
+    height: 30px;
+}
+
+.banner p {
+    width: 280px;
+    font-size: 25px;
+    color: white;
+    border-color: #C23A0D 10px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.banner .container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner button  {
+    float: none;
+    display: inline-block;
+    background-color: #C23A0D;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 2px;
+    cursor: pointer;
+    font-size: medium;
+    border-color: #C23A0D;
+}
+
+.container4 p button {
+    align-items: center;
+    
+}
+
+
+/*fundo azul*/
+
+.fundo {
+    background-color: #ADD8E6;
+}
+
+/* Especializações */
+
+.social {
+    background-color: #C23A0D;
+    flex-direction: row;
+}
+
+.container5 {
+    flex-direction: column;
+    display: flex;
+}
+
+.social .container5{
+    height: 400px;
+    justify-content: column;
+}
+
+.boxes {
+    display: flex;
+    padding: 5px 0;
+    gap: 16px;
+    flex-direction: column;
+    
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.box img {
+    width: 370px;
+    height: 180px;
+}
+
+.box h4 {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.boxes .box h4 {
+    flex-direction: column;
+}
+
+.card {
+    justify-content: space-around;
+}
+
+.titu {
+    margin-left: 35%;
+}
+
+/*historia*/
+
+.historia {
+    background-color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.historia .container2 {
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.container2 {
+    border: 2px solid red;
+}
+
+.historia h2 {
+    align-items: left;
+}
+
+.boxes2 {
+    display: flex;
+}
+
+.box2 {
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 15%;
+    height: 55%;
+    width: 55%;
+    margin-left: 20%;
+    background-color: black;
+}
+
+.containerIMG {
+    margin-left: 55%;
+}
+
+.box2 h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 2px 30px;
+}
+
+.box2 span {
+    color: #616060;
+    padding: 2px 30px;
+    width: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box2 .BotaoHistoria {
+    background-color: #1999C2;
+    color: white;
+    border-color: #1999C2;
+    margin-top: 25%;
+    height: 10%;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
